@@ -21,6 +21,7 @@
     "sass": "^1.32.11"
   },
   "dependencies": {
+    "bootstrap": "^4.6.0",
     "node-notifier": "^8.0.1"
   }
 }
