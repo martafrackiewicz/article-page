@@ -76,6 +76,45 @@
     margin-top: 60px;
   }
 }
+.article-comments {
+  margin-top: 45px;
+}
+.article-comments form .form-row-last {
+  display: flex;
+  justify-content: flex-end;
+}
+.article-comments form .btn {
+  margin-top: 10px;
+  border-radius: 15px;
+  padding: 6px 20px;
+  text-transform: uppercase;
+}
+.article-comments .row-comment {
+  margin-top: 20px;
+}
+.article-comments .row-comment .comment {
+  margin: 10px 0;
+}
+.article-comments .row-comment .comment-header {
+  margin-bottom: 10px;
+}
+.article-comments .row-comment .comment-author {
+  font-weight: bold;
+}
+.article-comments .row-comment .comment-date {
+  color: #999999;
+  margin-left: 20px;
+}
+.article-comments .row-comment .comment-footer {
+  color: #999999;
+}
+.article-comments .row-comment .btn {
+  color: #999999;
+}
+.article-comments .row-comment .btn:hover {
+  color: #212529;
+}
+
 * {
   box-sizing: border-box;
 }

@@ -1,0 +1,52 @@
+@import "../scss/settings/colors";
+
+.article-comments {
+    margin-top: 45px;
+
+    form {
+        .form-row-last {
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .btn {
+            margin-top: 10px;
+            border-radius: 15px;
+            padding: 6px 20px;
+            text-transform: uppercase;
+        }
+    }
+
+    .row-comment {
+        margin-top: 20px;
+
+        .comment {
+            margin: 10px 0;
+
+            &-header {
+                margin-bottom: 10px;
+            }
+
+            &-author {
+                font-weight: bold;
+            }
+
+            &-date {
+                color: $c-comment-date;
+                margin-left: 20px;
+            }
+
+            &-footer {
+                color: $c-comment-votes;
+            }
+        }
+
+        .btn {
+            color: $c-comment-votes;
+
+            &:hover {
+                color: $c-comment-votes-hover;
+            }
+        }
+    }
+}
