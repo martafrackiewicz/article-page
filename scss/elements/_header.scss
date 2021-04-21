@@ -1,0 +1,42 @@
+@import "../scss/settings/colors";
+@import "../scss/settings/fonts";
+
+.navbar {
+    height: 70px;
+    flex-wrap: nowrap;
+
+    &-collapse {
+        justify-content: flex-end;
+    }
+}
+
+.header-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: none;
+    }
+    
+    &-icon {
+        height: 17px;
+        width: 17px;
+        border-radius: 50%;
+        border: 4px solid $c-logo-icon;
+        background-color: transparent;
+        margin-right: 10px;
+    }
+
+    &-text {
+        color: $c-logo-text;
+        font-family: $font-secondary;
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
+
+.nav-item {
+    margin: 0 5px;
+}
