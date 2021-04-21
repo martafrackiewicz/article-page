@@ -3,6 +3,8 @@
 @import "settings/fonts";
 
 @import "elements/header";
+@import "elements/article";
+@import "elements/sidebar";
 
 * {
     box-sizing: border-box;
@@ -11,4 +13,12 @@
 body {
     margin: 0;
     font-family: $font-primary;
+}
+
+.container {
+    padding: 0;
+}
+
+.row {
+    margin: 0;
 }

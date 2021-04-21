@@ -1,0 +1,30 @@
+@import "../scss/settings/colors";
+
+.article {
+    &-wrap {
+        padding-left: 0;
+        margin-top: 50px;
+    }
+
+    &-title {
+        font-weight: 600;
+    }
+
+    &-data {
+        margin: 20px 0 30px 0;
+        font-size: 14px;
+    }
+    &-author {
+        margin: 0;
+    }
+
+    &-date {
+        color: $c-article-date;
+    }
+}
+
+@media (max-width: 768px) {
+    .article-wrap {
+        padding: 0;
+    }
+}
