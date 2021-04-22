@@ -1,9 +1,10 @@
 @import "../scss/settings/colors";
+@import "../scss/settings/sizes";
 
 .article {
     &-wrap {
         padding-left: 0;
-        margin-top: 50px;
+        margin-top: 50px + $header-height;
     }
 
     &-title {

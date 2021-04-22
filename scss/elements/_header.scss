@@ -1,8 +1,9 @@
 @import "../scss/settings/colors";
 @import "../scss/settings/fonts";
+@import "../scss/settings/sizes";
 
 .navbar {
-    height: 70px;
+    height: $header-height;
 
     &-collapse {
         justify-content: flex-end;
