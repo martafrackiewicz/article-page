@@ -434,11 +434,16 @@ template {
   padding: 6px 20px;
   text-transform: uppercase;
 }
+.article-comments form .btn:focus {
+  outline: none;
+  box-shadow: none;
+}
 .article-comments .row-comment {
   margin-top: 20px;
 }
 .article-comments .row-comment .comment {
   margin: 10px 0;
+  width: 100%;
 }
 .article-comments .row-comment .comment-header {
   margin-bottom: 10px;
