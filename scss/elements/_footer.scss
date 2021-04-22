@@ -1,0 +1,62 @@
+@import "../scss/settings/colors";
+
+.footer {
+    margin-top: 20px;
+    font-size: 14px;
+
+    &-container {
+        border-top: 1px solid $c-footer-border;
+        padding: 20px;
+    }
+    
+    &-column-title {
+        margin-top: 20px;
+        margin-bottom: 12px;
+        font-weight: bold;
+        font-size: inherit;
+        text-transform: uppercase;
+    }
+
+    &-column-list {
+        list-style: none;
+        line-height: 1.8;
+        font-size: inherit;
+        padding: 0;
+
+        &-link {
+            text-decoration: none;
+
+            &:hover {
+                opacity: 0.8;
+                text-decoration: none;
+            }
+        }
+    }
+
+    &-column-text {
+        font-size: 12px;
+    }
+
+    &-column-social {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+
+        i {
+            padding: 10px;
+            color: $c-footer-social;
+
+            &:hover {
+                opacity: 0.8;
+            }
+        }
+    }
+
+    .copyright {
+        margin-top: 10px;
+        font-size: 12px;
+        color: $c-footer-copyright;
+        text-align: center;
+    }
+}
