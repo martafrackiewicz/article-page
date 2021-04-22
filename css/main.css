@@ -464,6 +464,10 @@ template {
 .article-comments .row-comment .btn:hover {
   color: #212529;
 }
+.article-comments .row-comment .btn:focus {
+  outline: none;
+  box-shadow: none;
+}
 
 .footer {
   margin-top: 20px;
