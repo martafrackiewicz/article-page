@@ -25,3 +25,9 @@ body {
 .row {
     margin: 0;
 }
+
+@media (max-width: 768px) {
+    body {
+        font-size: 1.2em;
+    }
+}
