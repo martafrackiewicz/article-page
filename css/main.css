@@ -35,8 +35,8 @@
 }
 
 .article-wrap {
-  padding-left: 0;
   margin-top: 120px;
+  padding: 0 15px;
 }
 .article-title {
   font-weight: 600;
@@ -52,14 +52,14 @@
   color: #999999;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .article-wrap {
-    padding: 0;
+    padding-left: 0;
   }
 }
 .sidebar-wrap {
-  padding-right: 0;
-  margin-top: 140px;
+  margin-top: 60px;
+  padding: 0 15px;
 }
 .sidebar-wrap .sidebar-title {
   margin-bottom: 20px;
@@ -76,10 +76,10 @@
   font-weight: bold;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .sidebar-wrap {
-    padding: 0;
-    margin-top: 60px;
+    padding-right: 0;
+    margin-top: 130px;
   }
 }
 .article-comments {

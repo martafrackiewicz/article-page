@@ -3,8 +3,8 @@
 
 .article {
     &-wrap {
-        padding-left: 0;
         margin-top: 50px + $header-height;
+        padding: 0 15px;
     }
 
     &-title {
@@ -24,8 +24,8 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
     .article-wrap {
-        padding: 0;
+        padding-left: 0;
     }
 }
