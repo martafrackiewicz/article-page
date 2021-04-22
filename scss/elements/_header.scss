@@ -40,3 +40,19 @@
 .nav-item {
     margin: 0 5px;
 }
+
+@media (min-width: 768px) {
+
+    .navbar {
+        height: unset;
+
+        &-collapse {
+            padding: 15px 5px;
+            font-size: 22px;
+        }
+    }
+
+    .nav-item {
+        border-bottom: 0.5px solid #ddd
+    }
+}
