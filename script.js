@@ -86,6 +86,8 @@ $commentForm.addEventListener("submit", (e) => {
     e.preventDefault();
     if (!$commentInput.value) {
         alert("Komentarz nie może być pusty");
+    } else if ($commentInput.value.length > 200) {
+        alert("Komentarz nie może być dłuższy niż 200 znaków");
     } else {
         createComment($commentInput.value);
         $commentInput.value = "";
