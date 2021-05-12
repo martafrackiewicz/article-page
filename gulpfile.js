@@ -41,10 +41,10 @@ function makeJs() {
         .pipe(gulp.dest('dist'))
 }
 
-gulp.task('images', function () {
-    return gulp.src('/images/**/*')
+function images() {
+    return gulp.src('./images/**/*')
         .pipe(gulp.dest('dist/images'));
-});
+};
 
 function watch(cb) {
     gulp.watch("./scss/**/*.scss", gulp.series(makeCss));
